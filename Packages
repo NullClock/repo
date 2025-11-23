@@ -1,28 +1,24 @@
-Package: com.supermamon.newpackage
-Version: 2.0.0-1
-Section: Tweaks
-Maintainer: Reposi3 <reposithree@gmail.com>
-Depends: firmware (>7.0), mobilesubstrate
+Package: org.coolstar.llvm-clang32
+Version: 3.7.1-2
 Architecture: iphoneos-arm
-Filename: ./debs/com.supermamon.newpackage_2.0.0-1_iphoneos-arm.deb
-Size: 854
-MD5sum: 85a01c41aaaa72b48b08d9d0a67f3016
-Description: This is a sample new package. Firmware should be greater than 7.0
-Name: New Package
-Author: Reposi3 <reposithree@gmail.com>
-Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.newpackage
-
-Package: com.supermamon.oldpackage
-Version: 1.0.0-1
-Section: Tweaks
-Maintainer: Reposi3 <reposithree@gmail.com>
-Depends: firmware (<7.0)
-Architecture: iphoneos-arm
-Filename: ./debs/com.supermamon.oldpackage_1.0.0-1_iphoneos-arm.deb
-Size: 860
-MD5sum: 8c606f0c05217aa2a20949091fe516f0
-Description: This is a sample old package. Firmware should be lower than 7.0
-Name: Old Package
-Author: Reposi3 <reposithree@gmail.com>
-Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.oldpackage
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 521112
+Depends: firmware (>= 5.0)
+Breaks: org.coolstar.llvm-clang (<< 3.7.1-1)
+Replaces: org.coolstar.llvm-clang (<< 3.7.1-1)
+Filename: ./debs/llvm-clang32_3.7.1-2.deb
+Size: 31191920
+MD5sum: a2278b282dec034ce7c9947c25186e17
+SHA1: 215704046d7035598c9ea217e6ca9e55ef560c22
+SHA256: 5039cdce59d916fd7d1072ea96d16344962dfbe52f008d8b7cd4e8ccc3c71bf0
+Section: Development
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=llvm-clangDp
+Description: LLVM, Clang, and Compiler-RT 3.4 SVN
+Tag: purpose::console, cydia::obsolete
+Author: CoolStar <coolstarorganization@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=llvm-clangDp
+Dev: coolstar
+Name: LLVM+Clang (32 Bit)
+Sponsor: thebigboss.org <http://thebigboss.org>
 
